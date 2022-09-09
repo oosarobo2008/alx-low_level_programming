@@ -7,7 +7,7 @@
 * Return: Always 0 (Success)
 */
 
-int main(void)
+int main(void)  // Function of the main last digit
 {
 int final;
 int n;
