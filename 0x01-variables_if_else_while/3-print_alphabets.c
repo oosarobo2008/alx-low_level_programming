@@ -1,34 +1,45 @@
 #include <stdio.h>
 
-/**
-* main - alphabet
-* Return: always 0 (success)
-*/
+/*
+
+ *
+
+ * Return: Always 0 (success)
+
+ /**
+
+ * main - put am for betty body wotowoto
+
+ * Return: Always 0 (success)
+
+ */
 
 int main(void)
-
+  
 {
-char henry = 'a'; 
-char hamza = 'A';
-for (henry <= 'a'; henry++)
-
-{
-if (henry <= 'z'){
-putchar(henry);
-}
+  
+  char henry = 'a';
+  
+  char hamza = 'A';
+  
+  for (henry = 'a' ; henry <= 'z'; henry++)
+    
+    {
       
-else
-
-{
-return (0)
-}
-while (hamza <= 'Z')
-	
-{
-putchar(hamza);
-hamza++;
-putchar(10);
-}
+      putchar(henry);
       
-return (0);
+    }
+  
+  for (hamza = 'A' ; hamza <= 'Z'; hamza++)
+    
+    {
+      
+      putchar(hamza);
+      
+    }
+  
+  putchar('\n');
+  
+  return (0);
+  
 }
