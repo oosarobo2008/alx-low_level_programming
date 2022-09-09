@@ -3,12 +3,10 @@
 #include <stdio.h>
 
 /**
-* Main -Determines either greater than 5, is less than 6, or is 0
+* main -Determines the last digit of n
+* either greater than 5,
+* is less than 6, or is 0
 * Return: Always 0 (Success)
-**/
-
-* Main -Description either greater thab 5
-* Return: Always( success)
 **/
 
 int main(void)
