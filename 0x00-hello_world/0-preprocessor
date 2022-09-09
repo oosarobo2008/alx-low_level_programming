@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -E SCFILE -o c
+gcc -c $CFILE
+
