@@ -6,10 +6,9 @@
 
 int main(void)
 {
-int num;
-for (num = 0; num <= 10; num++){
-putchar(num);
-}
+char ch ='0';
+for (ch = '0'; ch <= '9'; ch++)
+putchar(ch);
 putchar(\n);
 return (0);
 }
