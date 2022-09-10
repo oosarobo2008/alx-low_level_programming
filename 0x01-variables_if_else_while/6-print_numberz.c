@@ -7,12 +7,9 @@
 
 int main(void)
 {
-int d = 0;
-while (d <= 9)
-{
+int d;
+for (d ='0'; d <= '9'; d++)
 putchar(d);
-d++;
-}
-putchar(10);
+putchar('\n');
 return (0);
 }
