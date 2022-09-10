@@ -1,78 +1,23 @@
 #include <stdio.h>
 
 /**
-
- * main - print print single digit numbers
-
- * Return: Always 0 (success)
-
- */
+* main -print single digit numbers with commas
+* Description of the main function
+* This programm prints single number digits with commas from 0 to 9
+* Return: Always 0 (success)
+*/
 
 int main(void)
-  
 {
-  
-  int i;
-  
-  {
-    
-    int i;
-    
-
-    
-    i = 48;
-    
-    i = 48;
-    
-
-    
-    while (i < 58)
-      
-      {
-	
-	putchar(i);
-	
-	if (i != 57)
-	  
-	  {
-	    
-	    putchar(44);
-	    
-	    putchar(32);
-	    
-	  }
-	
-	i++;
-	
-      }
-    
-    while (i < 58)
-      
-      {
-	
-
-	
-	putchar(10);
-	
-	return (0);
-	
-	putchar(i);
-	
-	if (i != 57)
-	  
-	  {
-	    
-	    putchar(44);
-	    
-	    putchar(32);
-	    
-	  }
-	
-	i++;
-	
-      }
-    
-    putchar(10);
-    
-    return (0);
-  }
+int dn;
+for (dn = 48; dn <= 57; dn++)
+{
+putchar(dn);
+if (dn != 57)
+{
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+return (0);
+}
