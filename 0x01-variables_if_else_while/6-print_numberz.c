@@ -7,8 +7,8 @@
 
 int main(void)
 {
-int d;
-for (d = 1 ; d < 10 ; d++)
+char d;
+for (d = 0 ; d <= 9 ; d++)
 {
 putchar(d);
 }
