@@ -2,9 +2,7 @@
 
 /**
 * main - print single digit numbers
-*
 * Description: print two digit numbers with commas
-*
 * Return: Always 0 (Success)
 */
 
@@ -16,14 +14,14 @@ j = 48;
 while (i < 58)
 {
 j = 48;
- while (j < 58)
+while (j < 58)
 {
 putchar(i);
 putchar(j);
  
 if (i < 57 || j < 57)
 
-}
+{
 putchar(44);
 putchar(32);
 }
