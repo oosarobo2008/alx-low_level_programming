@@ -1,31 +1,19 @@
 #include <stdio.h>
 
 /**
+* main - Reversing the alphabet from z to a
+* Return: always 0 (success)
 
- * main - oya lets read from z back to a
-
- * Return: always 0 (success)
-
- */
+*/
 
 int main(void)
   
 {
-  
-  int bar;
-  
-
-  
-  for (bar = 'z' ; bar >= 'a' ; bar--)
-    
-    {
-      
-      putchar(bar);
-      
-    }
-  
-  putchar(10);
-  
-  return (0);
-  
+int rev;
+for (rev = 'z' ; rev >= 'a' ; rev--)
+{
+putchar(rev);
+}
+putchar(10);
+return (0);
 }

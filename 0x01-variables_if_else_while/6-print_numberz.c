@@ -1,16 +1,33 @@
 #include <stdio.h>
+
 /**
-* main - make i count one two three like nursery school pikin
-* Return: Always 0 (success)
-*/
+
+ * main - make i count one two three like nursery school pikin
+
+ * Return: Always 0 (success)
+
+ */
 
 int main(void)
+  
 {
-int num;
-for (num = 0; num <= 10; num++)
-{
-putchar(num);
-}
-putchar(\n);
-return (0);
+  
+  int m;
+  
+
+  
+  for (m = 38 ; m < 48 ; m++)
+    
+    for (m = 48 ; m < 58 ; m++)
+      
+      {
+	
+	putchar(m);
+	
+      }
+  
+  putchar('\n');
+  
+  return (0);
+  
 }
