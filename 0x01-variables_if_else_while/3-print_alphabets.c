@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
-* main - put am for betty body wotowoto
+* main - print lower and upper alphabet
 * Return: Always 0 (success)
 */
 
 int main(void)
 {
-char henry = 'a';
-char hamza = 'A';
-for (henry = 'a' ; henry <= 'z'; henry++)
+char he = 'a';
+char she = 'A';
+for (he = 'a' ; he <= 'z'; he++)
 {
-putchar(henry);
+putchar(he);
 }
-for (hamza = 'A' ; hamza <= 'Z'; hamza++)
+for (she = 'A' ; she <= 'Z'; she++)
 {
-putchar(hamza);
+putchar(she);
 }
 putchar('\n');
 return (0);
