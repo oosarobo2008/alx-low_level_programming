@@ -15,7 +15,7 @@ int hex;
 char low;
 for (hex = '0'; hex <= '9'; hex++)
 putchar(hex);
-for (low  = 'a'; low <= 'f'; low ++)
+for (low  = 'a'; low <= 'f'; low++)
 putchar(low);
 putchar('\n');
 return (0);
