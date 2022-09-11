@@ -18,9 +18,9 @@ for (u = 0; u < 3; u++)
 {
 if (i != e && e != u && u != i)
 {
-putchar(e);
-putchar(i);
-putchar(u);
+putchar(arr[0]);
+putchar(arr[1]);
+putchar(arr[2]);
 
 }
 }
