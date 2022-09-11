@@ -1,34 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
-* main - print single digit numbers
+* main - print double digit numbers
 * Description: print two digit numbers with commas
 * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-int i, j;
-i = 48;
-j = 48;
-while (i < 58)
+int d;
+for (d = 0; d = 100; d++)
 {
-j = 48;
-while (j < 58)
+putchar((d / 10) + '0');
+putchar((d % 10) + '0');
+if (d != 99)
 {
-putchar(i);
-putchar(j);
-
-if (i < 57 || j < 57)
-
-{
-putchar(44);
-putchar(32);
+putchar(',');
+putchar(' ');
 }
-j++;
 }
-i++;
-}
-putchar(10);
+putchar('\n');
 return (0);
 }
