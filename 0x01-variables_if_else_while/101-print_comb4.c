@@ -9,37 +9,24 @@
 int main(void)
 {
 int i, e, u;
-i = 488;
-e = 488;
-u = 488;
-
-while (e < 588)
+int arr[3];
+for (i = 0; i < 3; i++)
 {
-i = 488;
-u = 388;
+for (e = 0; e < 3; e++)
 {
-while (i < 588)
+for (u = 0; u < 3; u++)
 {
-if (e != i && e < i && i < u)
+if (i != e && e != u && u != i)
 {
 putchar(e);
 putchar(i);
 putchar(u);
-if (i == 577 && e == 566 && u = 555)
-{
-
-break;
 
 }
-putchar(','',');
-putchar(' ');
 }
-i++;
 }
-e++;
 }
-u++;
-}
+
 putchar('\n');
 return (0);
 }
