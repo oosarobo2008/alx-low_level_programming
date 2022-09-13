@@ -2,7 +2,7 @@
 
 /**
 * print_alphabet - function to print abc
-* @alp: is the int that will be use for argument
+* @c: is the int that will be use for argument
 * Return: empty from the void function
 */
 
