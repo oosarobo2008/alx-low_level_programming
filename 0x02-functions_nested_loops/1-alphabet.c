@@ -2,7 +2,7 @@
 
 /**
 * main - print alphabet
-* print_aphabet - empty return
+* Description - print alphabet
 * Return: empty from the void function
 */
 
