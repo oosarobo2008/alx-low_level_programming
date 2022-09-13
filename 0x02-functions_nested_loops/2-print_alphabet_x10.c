@@ -2,7 +2,7 @@
 
 /**
 * main - check the code
-*
+* @c is the int of use for the argument
 * Return: Always 0
 */
 
