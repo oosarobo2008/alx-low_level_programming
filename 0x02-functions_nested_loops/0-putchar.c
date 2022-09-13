@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - putchar 
+* main - putchar
 * main - uses the functions declared via the arguments passed
 * Description -prints putchar
 * Return: always zero or something else passed
