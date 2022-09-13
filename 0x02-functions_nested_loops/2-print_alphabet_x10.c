@@ -2,7 +2,9 @@
 
 /**
 * main - check the code
-* @c is the int of use for the argument
+*print_alphabet_x10 - print alphabet 10 times
+
+*
 * Return: Always 0
 */
 
