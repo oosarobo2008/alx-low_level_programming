@@ -1,56 +1,22 @@
-#include <stdio.h>
-
 #include "main.h"
-
-
 
 /**
 
- * main - print 
+* main - print alphabet abc 
 
- *print_aphabet - empty return
+* print_aphabet - empty return
 
- *Return: empty from the void function
+* Return: empty from the void function
 
- */
-
-
-
-int main()
-  
-{
-  
-
-  
-  void print_alphabet(void);
-  
-  return 0;
-  
-}
-
-
-
-return 0;
-
-}
+*/
 
 void print_alphabet(void)
-  
 {
-  
-  char alpha = 'a' ;
-  
-  while (alpha <= 'z')
-    
-    {
-      
-      putchar(alpha);
-      
-      alpha++;
-      
-    }
-  
-  putchar('\n');
-  
+char alp;
+for (alp = 'a'; alp <= 'z'; alp++)
+{
+putchar(alp);
+}
+putchar('\n');
 }
 
