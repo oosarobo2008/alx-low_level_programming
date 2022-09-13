@@ -2,7 +2,7 @@
 
 /**
 
-* main - print alphabet abc 
+* main -print alphabet
 
 * print_aphabet - empty return
 
