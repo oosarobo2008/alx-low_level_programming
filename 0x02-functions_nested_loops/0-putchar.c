@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*Main -Function
+* main - putchar 
 * main - uses the functions declared via the arguments passed
-* Description: prints putchar
+* Description -prints putchar
 * Return: always zero or something else passed
 */
 
