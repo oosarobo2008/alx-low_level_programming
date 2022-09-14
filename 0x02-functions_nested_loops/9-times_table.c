@@ -6,15 +6,15 @@
 
 void time_table(void)
 {
-int num, null, prod;
+int num, mull, prod;
 for (num = 0; num <= 9; num++)
 {
 _putchar('0');
-for (null = 1; null <= 9; null++)
+for (mull = 1; mull <= 9; mull++)
 {
 _putchar(',');
 _putchar(' ');
-prod = num * null;
+prod = num * mull;
 if (prod <= 9)
 _putchar(' ');
 else
