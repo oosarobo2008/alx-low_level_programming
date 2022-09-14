@@ -2,12 +2,15 @@
 
 /**
 * main - check the code
-*print_alphabet_x10 - print alphabet 10 times
+* print_alphabet_x10- print alphabet 10 times
 *
 * Return: Always 0
 */
 
-void print_alphabet_x10(void)  /** print function */
+/** print_alphabet_x10 - description of function
+ */
+
+void print_alphabet_x10(void)
 {
 char c, i;
 for (i = 0; i <= 9; i++)
