@@ -6,10 +6,6 @@
 *
 * Return: Always 0
 */
-
-/** print_alphabet_x10 - description of function
- */
-
 void print_alphabet_x10(void)
 {
 char c, i;
