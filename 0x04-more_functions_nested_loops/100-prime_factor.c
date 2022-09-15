@@ -10,7 +10,7 @@
 
 int main(void)
 {
-long number - 612852475143;
+long number = 612852475143;
 int x;
 
 while (x++ < number / 2)
