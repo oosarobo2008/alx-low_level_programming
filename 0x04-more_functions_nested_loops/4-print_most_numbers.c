@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -17,7 +16,7 @@ if ((n == 50) || (n == 52))
 {
 continue;
 }
-_putchar(n);
+putchar(n);
 )
-_putchar(10);
+putchar(10);
 }
