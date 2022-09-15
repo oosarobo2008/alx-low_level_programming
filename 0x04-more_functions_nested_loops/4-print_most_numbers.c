@@ -1,13 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * print_most_numbers - prints numbers except 2 and 4
-*
-* Return: return 0
+* Return: returns 0
 */
 
 void print_most_numbers(void)
 {
+
 int n;
 
 for (n = 48; n < 58; n++)
