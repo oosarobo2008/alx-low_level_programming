@@ -11,19 +11,19 @@
 int main(void)
 {
 long number = 612852475143;
-int x;
+int inc;
 
-while (x++ < number / 2)
+while (inc++ < number / 2)
 {
 if (number % inc == 0)
 {
 number /= 2;
 continue;
 }
-for (x = 3; x < number / 2; x += 2)
+for (inc = 3; inc < number / 2; inc += 2)
 {
-if (number % x == 0)
-number /= x;
+if (number % inc == 0)
+number /= inc;
 }
 }
 printf("%1d\n", number);
