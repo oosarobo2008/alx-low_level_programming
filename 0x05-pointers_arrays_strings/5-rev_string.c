@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
-* rev_string - prints reverse character
-* @s1: input string
+* rev_string - prints reverse string characters
 *
 * Return: reverse string
 */
