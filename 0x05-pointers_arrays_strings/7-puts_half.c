@@ -19,7 +19,7 @@ if (i % 2 == 1)
 n = (i + 1) / 2;
 while (str[n] != '\0')
 {
-putchar(str[n]);
+_putchar(str[n]);
 n++;
 }
 }
@@ -28,9 +28,9 @@ else
 n = (i / 2);
 while (str[n] != '\0')
 {
-putchar(str[n]);
+_putchar(str[n]);
 n++;
 }
 }
-putchar('\n');
+_putchar('\n');
 }
