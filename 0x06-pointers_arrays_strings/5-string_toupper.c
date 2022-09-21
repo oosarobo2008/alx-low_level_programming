@@ -19,7 +19,8 @@ for (i = 0; i < 13; i++)
 {
 if (*(s + count) == sep_words[i])
 {
-if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))*(s + (count + 1)) = *(s + (count + 1)) - 32;
+if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+*(s + (count + 1)) = *(s + (count + 1)) - 32;
 break;
 }
 }
