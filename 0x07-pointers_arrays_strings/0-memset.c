@@ -5,7 +5,7 @@
 * @s: starting address
 * @b: Value
 * @n: number of bytes
-* Return: return 0
+* Return: pointer to be the memory block
 */
 
 char *_memset(char *s, char b, unsigned int n)
