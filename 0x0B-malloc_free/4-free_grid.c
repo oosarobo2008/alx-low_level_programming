@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * free_grid - allocates a grid 
+ * free_grid - allocates a grid
  * @grid: inputs grid width
  * @height: input grid height
  * Return: free grid
