@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * _strlen - count array
- * @s: array of elements
- * Return: 0
- */
+* _strlen - count array
+* @s: array of elements
+* Return: 0
+*/
 
 int _strlen(char *s)
 {
 unsigned int i;
-
 i = 0;
-while  (s[i] != '\0')
+while (s[i] != '\0')
 {
 i++;
 }
@@ -19,11 +18,11 @@ return (i);
 }
 
 /**
- * _strcpy - copy arrays
- * @src: array of elements
- * @dest: dest array
- * Return: dest
- */
+* _strcpy - copy arrays
+* @src: array of elements
+* @dest: dest array
+* Return: dest
+*/
 
 char *_strcpy(char *dest, char *src)
 {
@@ -35,25 +34,25 @@ return (dest);
 }
 
 /**
- *_strdup - array for printing a string
- * @str: array of elements
- * Return: pointer
- */
+*_strdup - array for printing a string
+* @str: array of elements
+* Return: pointer
+*/
 
- char *_strdup(char *str)
- {
- char *dst;
- unsigned int size;
- if (str == 0)
- {
- return (NULL);
- }
- size = _strlen(str) + 1;
- dst = (char *) malloc(size *sizeof(char));
- if (dst == 0)
- {
- return (NULL);
- }
- _strcpy(dst, str);
- return (dst);
- }
+char *_strdup(char *str)
+{
+char *dst;
+unsigned int size;
+if (str == 0)
+{
+return (NULL);
+}
+size = _strlen(str) + 1;
+dst = (char *) malloc(size *sizeof(char));
+if (dst == 0)
+{
+return (NULL);
+}
+_strcpy(dst, str);
+return (dst);
+}
