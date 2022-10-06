@@ -8,5 +8,5 @@
  */
 int _putchar(char c)
 {
-return (write(i, &c, i));
+return (write(1, &c, 1));
 }
