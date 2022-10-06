@@ -3,7 +3,7 @@
 /**
  * malloc_checked - array for printing a string
  * @b: number of memory
- * Return:pointer to allocated memory
+ * Return: pointer to allocate me
  */
 
 void *malloc_checked(unsigned int b)
